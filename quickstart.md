@@ -64,7 +64,7 @@ function Section() {
         y: -100, 
         opacity: 0,
         ease: Back.easeOut, 
-        onComplete: done
+        onComplete: done()
       });
     },
 
@@ -75,7 +75,7 @@ function Section() {
         y: 100, 
         opacity: 0, 
         ease: Back.easeIn, 
-        onComplete: done
+        onComplete: done()
       });
     },
 
@@ -177,7 +177,7 @@ function Section() {
         y: -100, 
         opacity: 0,
         ease: Back.easeOut, 
-        onComplete: done
+        onComplete: done()
       });
     },
 
@@ -188,7 +188,7 @@ function Section() {
         y: 100, 
         opacity: 0, 
         ease: Back.easeIn, 
-        onComplete: done
+        onComplete: done()
       });
     },
 
