@@ -68,7 +68,7 @@ After this there are two properties which can use to modify how routes are handl
 
 `useURL` tells `bigwheel` that the Browsers location should be changed when the section is brought in. By default `bigwheel` will change the url when navigating to sections (`useURL == true`).
 
-If you set `useURL` to `false` then the url will never bed updated and also the section cannot be accessed by manually updating the browser's location.
+If you set `useURL` to `false` then the url will never be updated and also the section cannot be accessed by manually updating the browser's location.
 
 In the above routes example if a user went in and typed:
 ```javascript
