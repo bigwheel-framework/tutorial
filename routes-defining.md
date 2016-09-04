@@ -26,7 +26,7 @@ Most of the time your routes will look like the above:
 ```
 In this case if the user were to go to: `http://localhost:8080/#!/about` the section defined at `require('../sections/About')` would be run (`bigwheel` will go through `About`'s `init`, `resize`, `animateIn`, `animateOut`, `destroy` methods)
 
-**_Note currently `bigwheel` uses "hash bang" routing but could easily be made to handle the history api_**
+**_Note currently `bigwheel` uses "push state" routing but could easily be made to use hash bang urls. To use hash bang urls set `pushState: false`_**
 
 **_Gotcha: In all these examples we've been defining routes inline in objects.
 It might be tempting to require sections outside of the routes object but this can cause a large gotcha for instance if we did:_**
